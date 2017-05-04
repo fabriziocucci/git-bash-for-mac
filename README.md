@@ -5,7 +5,10 @@ You have no idea what the Git Bash is (or Windows for that matters) and yet you 
 
 Follow these steps:
 1. run `./install.sh` from the terminal;
-2. open `Terminal` -> `Preferences` -> `Profiles` and select the `Pro` theme;
-3. restart `Terminal` and enjoy!
+2. run `source ~/.bash_profile` from the terminal;
+3. open `Terminal` -> `Preferences` -> `Profiles` and select the `Pro` theme;
+4. enjoy!
 
-More info about the rationale behind the `install.sh` can be found [here](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Bash).
+Now you have a nice prompt that always shows you the branch you are on powered by a tab-based autocompletion for all of Git’s subcommands, command-line parameters, and remotes and ref names.
+
+More info can be found [here](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Bash).
