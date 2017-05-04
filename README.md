@@ -5,7 +5,7 @@ You have no idea what the Git Bash is (or Windows for that matters) and yet you 
 
 Follow these steps:
 1. run `./install.sh` from the terminal;
-2. open `Terminal` -> `Preferences` and select the `Pro` theme;
-3. enjoy!
+2. open `Terminal` -> `Preferences` -> `Profiles` and select the `Pro` theme;
+3. restart `Terminal` and enjoy!
 
 More info about the rationale behind the `install.sh` can be found [here](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Bash).
