@@ -1,7 +1,7 @@
 ### Git Bash for Mac
 
-source ~/.git-prompt.sh
 source ~/.git-completion.bash
+source ~/.git-prompt.sh
 
 DEFAULT="\[\033[0;00m\]"
 GREEN="\[\033[0;32m\]"
