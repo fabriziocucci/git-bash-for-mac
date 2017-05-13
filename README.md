@@ -22,20 +22,12 @@ Follow these steps:
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/fabriziocucci/git-bash-for-mac/master/uninstall.sh)"
 ```
-2. open `~/.bash_profile` and remove the following lines:
-```shell
-...
-### Git Bash for Mac
-
-source ~/.git-bash-for-mac.sh
-...
-```
-3. open `Terminal` -> `Preferences` -> `Profiles` and select the theme you used to have;
-4. restart the `Terminal` and (un)enjoy!
+2. open `Terminal` -> `Preferences` -> `Profiles` and select the theme you used to have;
+3. restart the `Terminal` and (un)enjoy!
 
 ### Customize
 
-You don't like the colors of your new prompt? Open `~/.git-bash-for-mac.sh` and start messing up with your prompt!
+You don't like the colors of your new prompt? Open `~/.git-bash-for-mac.sh` and start messing up with it!
 
 In addition, by simply exporting a couple of variables in `~/.git-bash-for-mac.sh` you can make you prompt even more informative:
 * if you set `export GIT_PS1_SHOWDIRTYSTATE=1`, unstaged (*) and staged (+) changes will be shown next to the branch name;

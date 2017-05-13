@@ -1,7 +1,5 @@
 #!/bin/bash
 
-### Git Bash for Mac (v1)
-
 source ~/.git-completion.bash
 source ~/.git-prompt.sh
 
