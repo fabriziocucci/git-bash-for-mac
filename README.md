@@ -5,6 +5,8 @@ You have no idea what the Git Bash is (or Windows for that matters) and yet you 
 
 Here it comes the *Git Bash for Mac*: a nice `Terminal` customisation that always shows you the branch you are on, powered by a tab-based autocompletion for all of Git’s subcommands, command-line parameters, and remotes and ref names.
 
+![git-bash-for-mac](./images/screenshot.png "Git Bash for Mac")
+
 ### Install
 
 Follow these steps:
