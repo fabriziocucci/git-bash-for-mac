@@ -17,6 +17,8 @@ Follow these steps:
 2. open `Terminal` -> `Preferences` -> `Profiles` and select the `Pro` theme;
 3. restart the `Terminal` and enjoy!
 
+It is recommended that you run Git 2.18+ for a full auto completion support
+
 ### Uninstall
 
 Follow these steps:
