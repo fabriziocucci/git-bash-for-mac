@@ -5,6 +5,9 @@ curl -o ~/.git-bash-for-mac.sh https://raw.githubusercontent.com/fabriziocucci/g
 curl -o ~/.git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
+# Make sure '.bash_profile' exists
+touch ~/.bash_profile
+
 # Add newline at the end of the '.bash_profile' if it doesn't exist
 sed -i '' '$a\' ~/.bash_profile
 
