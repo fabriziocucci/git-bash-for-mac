@@ -12,7 +12,7 @@ Here it comes the *Git Bash for Mac*: a nice `Terminal` customisation that alway
 Follow these steps:
 1. from the `Terminal`, run
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/fabriziocucci/git-bash-for-mac/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ondkloss/git-bash-for-mac/master/install.sh)"
 ```
 2. open `Terminal` -> `Preferences` -> `Profiles` and select the `Pro` theme;
 3. restart the `Terminal` and enjoy!
