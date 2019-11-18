@@ -1,6 +1,7 @@
 #!/bin/zsh
 
-zstyle ':completion:*:*:git:*' script ~/.git-completion.zsh
+autoload -U compinit && compinit
+zstyle ':completion:*:*:git:*' ~/.git-completion.bash ~/.git-completion.zsh
 source ~/.git-prompt.sh
 
 autoload -U colors && colors

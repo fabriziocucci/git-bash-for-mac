@@ -22,7 +22,7 @@ Follow these steps:
 Follow these steps:
 1. from the `Terminal`, run
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/fabriziocucci/git-bash-for-mac/master/uninstall.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ondkloss/git-bash-for-mac/master/uninstall.sh)"
 ```
 2. open `Terminal` -> `Preferences` -> `Profiles` and select the theme you used to have;
 3. restart the `Terminal` and (un)enjoy!
