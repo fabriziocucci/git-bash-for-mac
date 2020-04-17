@@ -10,7 +10,7 @@ if test -f "$FILE"; then
     echo "$FILE detected"
 else
     echo "$FILE not detected. Creating it now." &&
-    touch ~/.bash_profile
+    touch $FILE
 fi
 
 # Add newline at the end of the '.bash_profile' if it doesn't exist
