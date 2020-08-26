@@ -1,3 +1,7 @@
+# Why the fork?
+
+This fork addresses the fact that the original repo doesn't work for `zsh`. From macOS 10.15 Catalina the default shell is `zsh`, and this fork adds configuration to get that lovely Git Bash feeling in the `zsh` shell.
+
 # Git Bash for Mac
 
 Did you (finally) migrate from Windows to Mac and the only thing you miss is the lovely Git Bash?
