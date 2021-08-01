@@ -9,4 +9,5 @@ GREEN="%{$fg[green]%}"
 YELLOW="%{$fg[yellow]%}"
 CYAN="%{$fg[cyan]%}"
 
+setopt PROMPT_SUBST
 export PS1=$GREEN"$USER@%m"$YELLOW" %~"$CYAN'$(__git_ps1)'$DEFAULT$'\n'"\$ "
