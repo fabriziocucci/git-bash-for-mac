@@ -1,13 +1,9 @@
-# Why the fork?
-
-This fork addresses the fact that the original repo doesn't work for `zsh`. From macOS 10.15 Catalina the default shell is `zsh`, and this fork adds configuration to get that lovely Git Bash feeling in the `zsh` shell.
-
 # Git Bash for Mac
 
 Did you (finally) migrate from Windows to Mac and the only thing you miss is the lovely Git Bash?
 You have no idea what the Git Bash is (or Windows for that matters) and yet you really want to improve your Git experience on Mac?
 
-Here it comes the *Git Bash for Mac*: a nice `Terminal` customisation that always shows you the branch you are on, powered by a tab-based autocompletion for all of Git’s subcommands, command-line parameters, and remotes and ref names.
+Here it comes the *Git Bash for Mac*: a nice `Terminal` customisation that always shows you the branch you are on, powered by a tab-based autocompletion for all of Git’s subcommands, command-line parameters, and remotes and ref names. It attaches to `bash` and `zsh`.
 
 ![git-bash-for-mac](./images/screenshot.png "Git Bash for Mac")
 
@@ -16,7 +12,7 @@ Here it comes the *Git Bash for Mac*: a nice `Terminal` customisation that alway
 Follow these steps:
 1. from the `Terminal`, run
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ondkloss/git-bash-for-mac/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/fabriziocucci/git-bash-for-mac/master/install.sh)"
 ```
 2. open `Terminal` -> `Preferences` -> `Profiles` and select the `Pro` theme;
 3. restart the `Terminal` and enjoy!
@@ -28,16 +24,16 @@ It is recommended that you run Git 2.18+ for a full auto completion support
 Follow these steps:
 1. from the `Terminal`, run
 ```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ondkloss/git-bash-for-mac/master/uninstall.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/fabriziocucci/git-bash-for-mac/master/uninstall.sh)"
 ```
 2. open `Terminal` -> `Preferences` -> `Profiles` and select the theme you used to have;
 3. restart the `Terminal` and (un)enjoy!
 
 ### Customize
 
-You don't like the colors of your new prompt? Open `~/.git-bash-for-mac.sh` and start messing up with it!
+You don't like the colors of your new prompt? Open `~/.git-bash-for-mac.sh` or `~/.git-bash-for-mac-zsh.sh` and start messing up with it!
 
-In addition, by simply exporting a couple of variables in `~/.git-bash-for-mac.sh` you can make you prompt even more informative:
+In addition, by simply exporting a couple of variables in `~/.git-bash-for-mac.sh` or `~/.git-bash-for-mac-zsh.sh` you can make you prompt even more informative:
 * if you set `export GIT_PS1_SHOWDIRTYSTATE=1`, unstaged (*) and staged (+) changes will be shown next to the branch name;
 * if you set `export GIT_PS1_SHOWSTASHSTATE=1` and something is stashed then a '$' will be shown next to the branch name;
 * if you set `export GIT_PS1_SHOWUNTRACKEDFILES=1` and there are untracked files then a '%' will be shown next to the branch name.
