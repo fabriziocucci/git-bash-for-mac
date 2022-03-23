@@ -37,3 +37,9 @@ In addition, by simply exporting a couple of variables in `~/.git-bash-for-mac.s
 * if you set `export GIT_PS1_SHOWUNTRACKEDFILES=1` and there are untracked files then a '%' will be shown next to the branch name.
 
 More info and options can be found [here](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Bash).
+
+### Alternatives
+
+Want it to work for `zsh`? Check out:
+* [ondkloss/git-bash-for-mac](https://github.com/Ondkloss/git-bash-for-mac): A lightweight fork that adds similar functionality to `zsh`.
+* [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh): A heavyweight alternative with powerful `zsh` configuration capabilities.
